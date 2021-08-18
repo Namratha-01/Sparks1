@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+body {
+    font-family: serif;
+    background-color: lightgoldenrodyellow;
+}
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: white;
+}
+
+/* .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.navbar{
+    padding: 0 25px 0 ;
+}
+.nav-link{
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    background-color: #a7d5ee;
+} */
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+li a {
+    color: bisque;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10cm;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    background-color: midnightblue;
+    padding-bottom: 10px;
+}
+
+.links {
+    position: absolute;
+    right: 10px;
+    padding-top: 20px;
+
+}
+
+.image {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.buttoninfo {
+    border-radius: 20px;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    width: 30px;
+}
+
+.my-info {
+    padding: 2rem 5rem;
+    color: midnightblue;
+    line-height: 2;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    color: black;
+    background-color: lavender !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border: 0 !important;
+}
+
+.btn-info:hover {
+    background-color: burlywood;
+    color: brown;
+}
+
+/* #id{
+    background-color: bisque;
+} */
+.btn:focus {
+    outline: none !important;
+
+}
+
+/* .table{
+   background-color: bisque!important;
+} */
+.table thead th {
+    border-bottom: 0;
+}
+
+.table td,
+.table th {
+    border-top: 0;
+}
+
+.modal-content,
+.form-control {
+    background: lavender;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.input-group-text {
+    background-color: plum;
+    color: white;
+}
